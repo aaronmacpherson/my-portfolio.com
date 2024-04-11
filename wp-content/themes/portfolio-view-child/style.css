@@ -1,0 +1,27 @@
+/**
+* Theme Name: Portfolio View Child
+* Description: Portfolio View Child Theme
+* Author: Aaron MacPherson
+* Template: portfolio-view
+*/
+
+
+
+body.theme-dark {
+    --color-primary: #259815;
+}
+
+.hero-img img {
+    border-radius: 50%;
+    margin-top: 5em;
+    width: 70%;
+    height: 70%;
+}
+
+.entry-header, .wp-block-separator {
+    color: var(--color-primary);
+}
+
+.mopen, .mclose {
+    color: #ffffff;
+}
